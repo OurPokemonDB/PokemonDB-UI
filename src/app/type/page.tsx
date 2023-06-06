@@ -1,4 +1,5 @@
 import React from "react"
+import TypeIcon from '@/components/Type/Icon'
 
 const TypePage = () => {
     return (
@@ -23,6 +24,11 @@ const TypePage = () => {
                 advantages, so a Water-type Pokémon using a Water-type move against a
                 Ground/Rock-type Pokémon will bag you six times (2×2×1.5) normal damage!
             </p>
+            <div>
+                Some types:
+                <TypeIcon name='ice'/>
+                <TypeIcon name='fire'/>
+            </div>
         </div>
     )
 }
